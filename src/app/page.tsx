@@ -187,6 +187,7 @@ export default function Home() {
               <>
                 {messages.data?.map((message, indx) => (
                   <div
+                   key={message.id}
                     className={cn(
                       "min-h-12 p-2 pl-4 flex flex-col space-y-2 justify-start",
                       indx % 2 === 0 ? "bg-slate-700" : "bg-slate-700/50"
