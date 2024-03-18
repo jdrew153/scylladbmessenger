@@ -6,4 +6,4 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 
-export const prodURLBase = "https://melodic-channel-production.up.railway.app"
+export const prodURLBase = "http://45.79.200.172/"
