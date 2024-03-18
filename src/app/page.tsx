@@ -189,11 +189,11 @@ export default function Home() {
                   <div
                    key={message.id}
                     className={cn(
-                      "min-h-12 p-2 pl-4 flex flex-col space-y-2 justify-start",
+                      "min-h-12 p-2 pl-4 flex flex-col space-y-2 justify-start w-full",
                       indx % 2 === 0 ? "bg-slate-700" : "bg-slate-700/50"
                     )}
                   >
-                    <div className="flex flex-row justify-between">
+                    <div className="flex flex-row justify-between max-w-full">
                      <div className="flex items-center gap-x-4">
                      {message.username}
                     <div className="flex items-center gap-x-2">
@@ -216,7 +216,7 @@ export default function Home() {
                       )}
                     </div>
                     <div className="h-[1px] w-[25%] bg-zinc-300 opacity-35" />
-                    <p>{message.body}</p>
+                    <p className="whitespace-pre max-w-md">{message.body}</p>
                     <div className="w-full items-end">
                       <p className="text-xs text-right text-zinc-300">
                         {new Date(message.time).toLocaleString()}

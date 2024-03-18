@@ -6,4 +6,4 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 
-export const prodURLBase = "https://scylladbmessengerapi-production.up.railway.app/"
+export const prodURLBase = "https://rocket-production-10ea.up.railway.app"
