@@ -196,7 +196,7 @@ export default function Home() {
                      <div className="flex items-center gap-x-4">
                      {message.username}
                     <div className="flex items-center gap-x-2">
-                      {Number(message.write_time) > 5 ? (
+                      {Number(message.write_time) > 200 ? (
                         <div className="w-2 h-2 rounded-full bg-red-500" />
                       ) : (
                         <div className="w-2 h-2 rounded-full bg-green-500" />
