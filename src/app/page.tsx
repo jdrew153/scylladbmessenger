@@ -202,7 +202,7 @@ export default function Home() {
                       ) : (
                         <div className="w-2 h-2 rounded-full bg-green-500" />
                       )}
-                    <p className="text-sm italic">
+                    <p className="text-sm text-wrap italic">
                       {message.write_time} ms
                      </p>
                     </div>
